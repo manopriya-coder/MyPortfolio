@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.main4 {
+  width: 100%;
+  height: 250%;
+  background-color: #050505;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  /* background-color: aliceblue; */
+}
+.mainP{
+    color: white;
+    font-size: 34px;
+    padding: 40px;
+}
+.mainProjectContainer{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: aliceblue; */
+}
+.figmaProject{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aliceblue; */
+}
+.project1{
+    width: 40%;
+    height: 80%;
+    border-radius: 20px;
+
+    
+}
+.project1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+
+.bottom{
+    width: 100%;
+    height: 18%;
+    margin-top: 5px;
+    border: 2px solid #6bff63;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    /* opacity: 0; */
+}
+
+.bottomP{
+    color: white;
+    font-size: 14px;
+
+}
+.icon{
+    width: 10%;
+    height: 70%;
+    border-radius: 50px;
+    background-color: #6bff63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon i{
+    /* color: white; */
+    font-size: 20px;
+    font-weight: 600;
+}
+.project1:hover .bottom{
+    /* opacity: 1; */
+  box-shadow: 0px 4px 15px 2px rgba(107, 255, 99, 0.6);
+  transition: all ease-out 0.4s;
+
+}
+
+.project2:hover .bottom2{
+    /* opacity: 1; */
+  box-shadow: 0px 4px 15px 2px rgba(107, 255, 99, 0.6);
+  transition: all ease-out 0.4s;
+
+
+}
+.project2{
+    width: 40%;
+    height: 80%;
+    
+}
+.project2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.bottom2{
+    width: 100%;
+    height: 18%;
+    margin-top: 5px;
+    border: 2px solid #6bff63;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    /* opacity: 0; */
+}
+
+.bottomP2{
+    color: white;
+    font-size: 14px;
+
+}
+.icon2{
+    width: 10%;
+    height: 70%;
+    border-radius: 50px;
+    background-color: #6bff63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon2 i{
+    /* color: white; */
+    font-size: 20px;
+    font-weight: 600;
+}
+.mainP2{
+    color: white;
+    font-size: 34px;
+    /* margin-top: 6%; */
+    padding: 40px;
+}
+.riveProject{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aliceblue; */
+}
+.riveProject1{
+    width: 40%;
+    height: 80%;
+    
+}
+.riveProject1 img{
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+}
+.riveProject2{
+    width: 40%;
+    height: 80%;
+    
+}
+.riveProject2 img{
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+}
+.psProject{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aliceblue; */
+}
+.psProject1{
+    width: 40%;
+    height: 100%;
+    
+}
+.psProject1 img{
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+}
+
