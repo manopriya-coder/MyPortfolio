@@ -54,3 +54,18 @@ body {
   top: 130%;
   left: 60%;
 }
+
+
+@media (max-width:600px) {
+  .main2{
+    height: 40%;
+  }
+  .para{
+    width: 70%;
+  }
+  .bgLine{
+    width: 20%;
+    height: 10%;
+    left: 70%;
+  }
+}

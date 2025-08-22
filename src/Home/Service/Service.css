@@ -59,3 +59,22 @@ span {
   font-size: 18px;
   font-size: lato;
 }
+
+
+@media (max-width:600px) {
+  .backGround{
+    height: 70%;
+  }
+  .backGround h3{
+    font-size: 26px;
+    left: 12%;
+  }
+  .serviceContainer{
+    height: 80%;
+  }
+  .service{
+    width: 100%;
+    height: 10%;
+  }
+  
+}

@@ -68,3 +68,26 @@ body {
   margin-top: 10px;
 
 }
+
+@media (max-width:600px) {
+  .education{
+    height: 40%;
+  }
+  .eduDetail{
+    width: 90%;
+    height: 50%;
+  }
+  .eduDetail h4{
+    margin: 14px;
+    font-size: 12px;
+  }
+  .year{
+    margin-left: 20px;
+  }
+   .eduDetail h5{
+    width: 60%;
+    margin: 14px;
+    margin-top: 0;
+    font-size: 12px;
+  }
+}

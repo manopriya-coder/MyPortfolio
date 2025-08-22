@@ -56,3 +56,17 @@ body {
   color: #6bff63;
   
 }
+
+
+@media (max-width:600px) {
+
+  .logoCircle{
+    width: 60%;
+    height: 40%;
+
+  }
+  .navMenu{
+    display: none;
+  }
+  
+}

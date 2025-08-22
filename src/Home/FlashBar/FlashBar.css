@@ -25,3 +25,17 @@ body {
     font-size: 24px;
     color: #FFF600;
 }
+
+
+@media (max-width:600px) {
+  .mainBar{
+    height: 8%;
+  }
+ .none{
+  display: none;
+ }
+ .mainBar p{
+  font-size: 14px;
+ }
+  
+}
