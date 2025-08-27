@@ -21,11 +21,11 @@ body {
 .mainP{
     color: white;
     font-size: 34px;
-    padding: 40px;
+    padding-top: 40px;
 }
 .mainProjectContainer{
     width: 80%;
-    height: 80%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -34,32 +34,31 @@ body {
 }
 .figmaProject{
     width: 100%;
-    height: 40%;
+    height: 26%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     /* background-color: aliceblue; */
 }
 .project1{
-    width: 40%;
-    height: 80%;
-    border-radius: 20px;
-
+    width: 26%;
+    height: 60%;
+    border-radius: 10px;
     
 }
 .project1 img{
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
     
 }
 
 .bottom{
     width: 100%;
     height: 18%;
-    margin-top: 5px;
+    margin-top: 8px;
     border: 2px solid #6bff63;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -69,7 +68,7 @@ body {
 
 .bottomP{
     color: white;
-    font-size: 14px;
+    font-size: 12px;
 
 }
 .icon{
@@ -83,7 +82,7 @@ body {
 }
 .icon i{
     /* color: white; */
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 }
 .project1:hover .bottom{
@@ -101,22 +100,22 @@ body {
 
 }
 .project2{
-    width: 40%;
-    height: 80%;
+    width: 26%;
+    height: 60%;
     
 }
 .project2 img{
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .bottom2{
     width: 100%;
     height: 18%;
-    margin-top: 5px;
+    margin-top: 8px;
     border: 2px solid #6bff63;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -126,7 +125,7 @@ body {
 
 .bottomP2{
     color: white;
-    font-size: 14px;
+    font-size: 12px;
 
 }
 .icon2{
@@ -140,66 +139,68 @@ body {
 }
 .icon2 i{
     /* color: white; */
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 }
 .mainP2{
     color: white;
     font-size: 34px;
     /* margin-top: 6%; */
-    padding-top: 10%;
+    padding-top: 4%;
     /* padding-bottom: 5%; */
 }
-.mainP3{
-    color: white;
-    font-size: 34px;
-    /* margin-top: 6%; */
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
+
 .riveProject{
     width: 100%;
-    height: 40%;
+    height: 26%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     /* background-color: aliceblue; */
 }
 .riveProject1{
-    width: 40%;
-    height: 80%;
+    width: 26%;
+    height: 60%;
     
 }
 .riveProject1 img{
     width: 80%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
+    /* background-color: #050505; */
 }
 .riveProject2{
-    width: 40%;
-    height: 80%;
+    width: 26%;
+    height: 60%;
     
 }
 .riveProject2 img{
     width: 80%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+.mainP3{
+    color: white;
+    font-size: 34px;
+    /* margin-top: 6%; */
+    padding-top: 3%;
+   
 }
 .psProject{
     width: 100%;
-    height: 40%;
+    height: 26%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     /* background-color: aliceblue; */
 }
 .psProject1{
-    width: 40%;
-    height: 100%;
+    width: 26%;
+    height: 80%;
     
 }
 .psProject1 img{
-    width: 80%;
+    width: 100%;
     height: 100%;
     border-radius: 20px;
 }

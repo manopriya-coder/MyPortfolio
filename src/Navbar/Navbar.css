@@ -66,9 +66,14 @@ body {
 
 
 @media (max-width:600px) {
-
+  .main{
+    height: 10%;
+  }
+  .logomain{
+    width: 20%;
+  }
   .logoCircle{
-    width: 60%;
+    width: 40%;
     height: 40%;
 
   }

@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../Aboutme/Aboutme.css";
 import myPic from "../../Assets/MyPic.png";
 import resume from "../../Assets/Mano priya Cv.pdf";
 import { motion } from "framer-motion";
 
 const Aboutme = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % flipWords.length);
+    }, 2000);
+    return () => clearInterval(interval);
+  }, []);
+  const flipWords = ["UI", "UX", "Creative"];
   return (
     <div className="mainImg">
       <div class="shape"></div>
@@ -34,8 +43,13 @@ const Aboutme = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true, amount: 0.3 }}
           >
-            <p className="designText2">UI/UX </p>
-            <p className="normalText2">Designer</p>
+            <div className="flip-container">
+              <div key={currentIndex} className="flip-word">
+                {flipWords[currentIndex]}
+              </div>
+                 Designer
+
+            </div>
           </motion.div>
           {/* </div> */}
           {/* <div className="aboutText"> */}
@@ -47,21 +61,14 @@ const Aboutme = () => {
             viewport={{ once: true, amount: 0.3 }}
           >
             <p className="aboutmePara">
-              Fresh UI/UX Designer with a passion for clean design and smooth
-              interactions., I am eager to apply my skills in user-centered
-              design, prototyping, and problem-solving to create intuitive and
-              engaging digital experiences. Seeking an opportunity as a UI/UX
-              Designer where I can contribute my knowledge of design tools,
-              wireframing, and user research while continuously learning and
-              growing within a dynamic design team. My goal is to design
-              impactful and user-friendly interfaces that meet both user needs
-              and business goals.
+              UI/UX Designer crafting clean, user-friendly, and impactful
+              digital experiences.
             </p>
           </motion.div>
 
           {/* </div> */}
           <div className="cvBtn">
-          {/* <motion.div
+            {/* <motion.div
             className="cvBtn"
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -69,9 +76,9 @@ const Aboutme = () => {
             viewport={{ once: true, amount: 0.3 }}
           > */}
             <a href={resume} download>
-              <button  className="cv">Download CV</button>
+              <button className="cv">Download CV</button>
             </a>
-          {/* </motion.div> */}
+            {/* </motion.div> */}
           </div>
         </div>
       </div>

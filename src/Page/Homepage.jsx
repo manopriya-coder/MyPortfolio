@@ -7,6 +7,7 @@ import Service from '../Home/Service/Service'
 import Projects from '../Home/Projects/Projects'
 import Education from '../Home/Education/Education'
 import Contact from '../Home/Contact/Contact'
+import Footer from '../Home/Footer/Footer'
 
 const Homepage = () => {
   return (
@@ -19,6 +20,7 @@ const Homepage = () => {
     <Aboutme2/>
     <Education/>
     <Contact/>
+    <Footer/>
     </>
   )
 }

@@ -63,7 +63,7 @@ span {
 
 @media (max-width:600px) {
   .backGround{
-    height: 70%;
+    height: 50%;
   }
   .backGround h3{
     font-size: 26px;
@@ -75,6 +75,10 @@ span {
   .service{
     width: 100%;
     height: 10%;
+  }
+  .service p{
+    font-size: 14px;
+    
   }
   
 }

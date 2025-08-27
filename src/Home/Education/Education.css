@@ -12,36 +12,41 @@ body {
   width: 100%;
   height: 60%;
   background-color: #171914;
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* gap: 20px; */
   position: relative;
 }
-.education img{
+.education img {
   width: 8%;
   height: 40%;
   position: absolute;
-  top:26%;
+  top: 26%;
   left: 10%;
 }
-.education p{
+.education p {
   height: 20%;
   color: white;
   font-size: 30px;
   font-family: lato;
-  margin-left: 12%;
-  padding-top: 40px;
+  /* margin-left: 12%;
+  padding-top: 40px; */
 }
-.eduMain{
-  width: 100%;
-  height: 80%;
+.eduMain {
+  width: 70%;
+  height: 100%;
   /* background-color: aliceblue; */
-  display: flex;
-  /* flex-direction: column; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  justify-content: center;
-
+  justify-items: center;
 }
 
 .eduDetail {
-  width: 60%;
+  width: 80%;
   height: 60%;
   border-radius: 30px;
   border: 2px solid rgb(107, 255, 99);
@@ -49,42 +54,56 @@ body {
   display: flex;
   flex-direction: column;
   align-items: start;
+  justify-content: center;
   /* justify-content: center; */
 }
-.eduDetail h4{
+.eduDetail h4 {
   width: 100%;
-  font-size: 14px;
-  color: white;
+  font-size: 16px;
+  font-family: lato;
+  color: rgba(107, 255, 99, 0.8);
   margin: 40px;
   margin-bottom: 0;
 }
-.year{
-  margin-left: 30%;
+.year {
+  color: rgba(107, 255, 99, 0.8);
+
+  margin-left: 46%;
 }
-.eduDetail h5{
-  width: 40%;
-  color: rgb(107, 255, 99);
+.eduDetail h5 {
+  width: 60%;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
   margin: 40px;
   margin-top: 10px;
-
+}
+.eduDetail h3 {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: lato;
+  width: 60%;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 40px;
+  margin-top: 0;
 }
 
-@media (max-width:600px) {
-  .education{
+@media (max-width: 600px) {
+  .education {
     height: 40%;
   }
-  .eduDetail{
+  .eduDetail {
     width: 90%;
     height: 50%;
   }
-  .eduDetail h4{
+  .eduDetail h4 {
     margin: 14px;
     font-size: 12px;
   }
-  .year{
+  .year {
     margin-left: 20px;
   }
-   .eduDetail h5{
+  .eduDetail h5 {
     width: 60%;
     margin: 14px;
     margin-top: 0;
