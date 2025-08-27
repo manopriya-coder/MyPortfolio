@@ -1,29 +1,51 @@
 import React from "react";
 import "../Aboutme/Aboutme.css";
 import myPic from "../../Assets/MyPic.png";
+import resume from "../../Assets/Mano priya Cv.pdf";
+import { motion } from "framer-motion";
 
 const Aboutme = () => {
   return (
     <div className="mainImg">
-      <div class="shape">
-    </div>
-    <div class="shape2">
-    </div>
-    {/* <div class="shape3">
+      <div class="shape"></div>
+      <div class="shape2"></div>
+      {/* <div class="shape3">
     </div> */}
-    <div class="shape4">
-    </div>
+      <div class="shape4"></div>
       <div className="left">
         <div className="subLeft">
-          <div className="nameText">
+          {/* <div className="nameText"> */}
+          <motion.div
+            className="nameText"
+            initial={{ opacity: 0, x: -200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
+          >
             <p className="normalText">I'm Mano</p>
             <p className="designText">Priya</p>
-          </div>
-          <div className="jobText">
+          </motion.div>
+          {/* </div> */}
+          {/* <div className="jobText"> */}
+          <motion.div
+            className="jobText"
+            initial={{ opacity: 0, x: -200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ once: true, amount: 0.3 }}
+          >
             <p className="designText2">UI/UX </p>
             <p className="normalText2">Designer</p>
-          </div>
-          <div className="aboutText">
+          </motion.div>
+          {/* </div> */}
+          {/* <div className="aboutText"> */}
+          <motion.div
+            className="aboutText"
+            initial={{ opacity: 0, x: -200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            viewport={{ once: true, amount: 0.3 }}
+          >
             <p className="aboutmePara">
               Fresh UI/UX Designer with a passion for clean design and smooth
               interactions., I am eager to apply my skills in user-centered
@@ -35,16 +57,34 @@ const Aboutme = () => {
               impactful and user-friendly interfaces that meet both user needs
               and business goals.
             </p>
-          </div>
-          <div className="cvBtn">
-            <button className="cv">Show CV</button>
+          </motion.div>
 
+          {/* </div> */}
+          <div className="cvBtn">
+          {/* <motion.div
+            className="cvBtn"
+            initial={{ opacity: 0, x: -200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            viewport={{ once: true, amount: 0.3 }}
+          > */}
+            <a href={resume} download>
+              <button  className="cv">Download CV</button>
+            </a>
+          {/* </motion.div> */}
           </div>
         </div>
       </div>
-      <div className="right">
+      {/* <div className="right"> */}
+      <motion.div
+        className="right"
+        initial={{ opacity: 0, x: 200 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1, delay: 0.3 }}
+      >
         <img src={myPic} />
-      </div>
+      </motion.div>
+      {/* </div> */}
     </div>
   );
 };

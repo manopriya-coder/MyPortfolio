@@ -13,10 +13,10 @@ const Homepage = () => {
     <>
     <Aboutme/>
     <FlashBar/>
-    <Aboutme2/>
     <Skills/>
     <Service/>
     <Projects/>
+    <Aboutme2/>
     <Education/>
     <Contact/>
     </>

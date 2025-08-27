@@ -8,27 +8,43 @@ import html from "../../Assets/html.jpg";
 import css from "../../Assets/css.png";
 import js from "../../Assets/js.png";
 import react from "../../Assets/react.png";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
     <div className="main3">
       <div className="subMain3">
         <p className="heading">Skills & Tools</p>
-        <div className="Images">
-          <div className="grid">
-            <img src={figma} alt="" />
-          </div>
-          <div className="grid">
-            <img src={rive} alt="" />
-          </div>
-          <div className="grid">
-            <img src={ps} alt="" />
-          </div>
-          <div className="grid">
-            <img src={illus} alt="" />
-          </div>
-        </div>
-        <div className="Images">
+        <motion.div
+          className="Images"
+          initial={{ opacity: 0, x: -200 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, }}
+          viewport={{ once: false, amount: 0.3 }}
+        >
+          {/* <div className="Images"> */}
+            <div className="grid">
+              <img src={figma} alt="" />
+            </div>
+            <div className="grid">
+              <img src={rive} alt="" />
+            </div>
+            <div className="grid">
+              <img src={ps} alt="" />
+            </div>
+            <div className="grid">
+              <img src={illus} alt="" />
+            </div>
+          {/* </div> */}
+        </motion.div>
+         <motion.div
+          className="Images"
+          initial={{ opacity: 0, x: -200 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay:0.2}}
+          viewport={{ once: false, amount: 0.3 }}
+        >
+           {/* <div className="Images"> */}
           <div className="grid">
             <img src={html} alt="" />
           </div>
@@ -41,8 +57,17 @@ const Skills = () => {
           <div className="grid">
             <img src={react} alt="" />
           </div>
-        </div>
-        <div className="skillPara">
+        {/* </div> */}
+        </motion.div>
+       
+        {/* <div className="skillPara"> */}
+        <motion.div
+          className="skillPara"
+          initial={{ opacity: 0, x: -200 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay:0.4}}
+          viewport={{ once: false, amount: 0.3 }}
+        >
           <p className="skill">
             From sketching rough wireframes to crafting detailed prototypes, I
             love turning simple ideas into engaging digital experiences. Tools
@@ -51,7 +76,9 @@ const Skills = () => {
             learning how to implement these designs using basic web technologies
             like HTML, CSS, and Webflow.
           </p>
-        </div>
+        </motion.div>
+          
+        {/* </div> */}
       </div>
     </div>
   );

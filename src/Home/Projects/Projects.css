@@ -147,7 +147,15 @@ body {
     color: white;
     font-size: 34px;
     /* margin-top: 6%; */
-    padding: 40px;
+    padding-top: 10%;
+    /* padding-bottom: 5%; */
+}
+.mainP3{
+    color: white;
+    font-size: 34px;
+    /* margin-top: 6%; */
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .riveProject{
     width: 100%;
