@@ -65,20 +65,35 @@ body {
 }
 
 
+/* For tablets and smaller screens */
 @media (max-width: 768px) {
-  .main{
-    height: 10%;
+  .main {
+    height: 8%; /* let it grow naturally */
+    width: 100%;
+    flex-direction: column; /* stack logo and menu */
+    align-items: flex-start;
+    padding: 10px 20px;
   }
-  .logomain{
-    width: 20%;
-  }
-  .logoCircle{
-    width: 40%;
-    height: 40%;
 
+  .logomain {
+    width: 100%;
+    justify-content: flex-start;
   }
-  .navMenu{
+
+  .logoCircle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logoName {
+    font-size: 18px;
+    left: 30px;
+    top: 36%;
+  }
+
+  .navMenu {
     display: none;
   }
+
   
 }
