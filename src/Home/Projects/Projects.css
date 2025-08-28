@@ -206,70 +206,97 @@ body {
 }
 
 
-@media (max-width:600px) {
-    .mainProjectContainer{
-        height: 96%;
-    }
-    .mainP{
-        font-size: 30px;
-        /* margin-top: 10%; */
-    }
-    .mainP2{
-        font-size: 30px;
-        margin-top: 14%;
-    }
-    .mainP3{
-        font-size: 30px;
-        /* margin-top: 10%; */
-    }
-    .figmaProject{
-        flex-direction: column;
-        gap: 14%;
-        height: 90%;
-        margin-top: 3em;
-    }
-    .project1{
-        width: 80%;
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
 
-    }
-    .project2{
-        width: 80%;
-    }
-    .mainP2{
-        margin-top: 3em;
-    }
-   .riveProject{
-    margin-top: 3em;
+  .main4 {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .mainP,
+  .mainP2,
+  .mainP3 {
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .mainProjectContainer {
+    width: 100%;
+  }
+
+  /* Figma Project */
+  .figmaProject {
     flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .project1,
+  .project2 {
+    width: 90%;
+    height: auto;
+  }
+
+  .project1 img,
+  .project2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .bottom,
+  .bottom2 {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .icon,
+  .icon2 {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Rive Project */
+  .riveProject {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .riveProject1,
+  .riveProject2 {
+    width: 90%;
+    height: auto;
+    display: flex;
     justify-content: center;
-    gap: 30px;
-    height: 90%;
-   }
-   .riveProject1{
-    width: 80%;
-    height: 60%;
-   }
-   .riveProject1 img{
+  }
+
+  .riveProject1 img,
+  .riveProject2 img {
     width: 100%;
-   }
-   .riveProject2{
-    width: 80%;
-    height: 60%;
-   }
-   .riveProject2 img{
+    height: auto;
+  }
+
+  /* Photoshop Project */
+  .psProject {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .psProject1 {
+    width: 90%;
+    height: auto;
+  }
+
+  .psProject1 img {
     width: 100%;
-   }
-   .mainP3{
-    margin-top: 2em;
-   }
-   .psProject{
-    height: 50%;
-   }
-   .psProject1{
-    width: 80%;
-    height: 80%;
-   }
-   .psProject1 img{
-    width: 100%;
-   }
+    height: auto;
+    border-radius: 15px;
+  }
 }

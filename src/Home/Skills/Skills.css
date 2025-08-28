@@ -90,6 +90,11 @@ body {
     height: 60%;
     padding-top: 20px;
   }
+    .heading {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+  }
   .Images {
     height: 20%;
     width: 100%;
