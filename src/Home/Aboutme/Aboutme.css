@@ -170,6 +170,7 @@ body {
 }
 .flip-container {
   height: auto;
+  /* width: 100%; */
   overflow: hidden;
   perspective: 1000px;
   margin: 10px 0;

@@ -88,14 +88,65 @@ body {
 }
 
 @media (max-width: 600px) {
-  .main2 {
-    height: 100%;
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
   }
+
+  .main2 {
+    height: auto;
+    padding: 20px 10px;
+  }
+
   .subMain2 {
     width: 90%;
+    gap: 20px;
   }
+
+  .heading {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .white,
+  .green {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .bgLine {
+    display: none; /* hide background shape on mobile for cleaner UI */
+  }
+
   .bioBox {
-    height: 100%;
-    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    grid-template-columns: 1fr; /* single column */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .bio {
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+    gap: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .bio:last-child {
+    border-bottom: none; /* remove line from last item */
+  }
+
+  .bio h4 {
+    font-size: 16px;
+  }
+
+  .bio p {
+    font-size: 14px;
+    line-height: 22px;
   }
 }
+
