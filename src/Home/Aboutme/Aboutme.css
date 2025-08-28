@@ -306,7 +306,7 @@ body {
   .mainImg {
     flex-direction: column; /* stack left & right */
     padding: 20px 10px;
-    padding-top: 36%;
+    padding-top: 32%;
   }
 
   .left, .right {
@@ -337,12 +337,12 @@ body {
 
   /* Flip word section */
   .flip-container {
-    font-size: 2rem;
+    font-size: 1.6rem;
     flex-wrap: wrap;
   }
 
   .flip-word {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-right: 5px;
   }
 

@@ -19,32 +19,32 @@ const Skills = () => {
           className="Images"
           initial={{ opacity: 0, x: -200 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, }}
+          transition={{ duration: 1 }}
           viewport={{ once: false, amount: 0.3 }}
         >
           {/* <div className="Images"> */}
-            <div className="grid">
-              <img src={figma} alt="" />
-            </div>
-            <div className="grid">
-              <img src={rive} alt="" />
-            </div>
-            <div className="grid">
-              <img src={ps} alt="" />
-            </div>
-            <div className="grid">
-              <img src={illus} alt="" />
-            </div>
+          <div className="grid">
+            <img src={figma} alt="" />
+          </div>
+          <div className="grid">
+            <img src={rive} alt="" />
+          </div>
+          <div className="grid">
+            <img src={ps} alt="" />
+          </div>
+          <div className="grid">
+            <img src={illus} alt="" />
+          </div>
           {/* </div> */}
         </motion.div>
-         <motion.div
+        <motion.div
           className="Images"
           initial={{ opacity: 0, x: -200 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, delay:0.2}}
+          transition={{ duration: 1, delay: 0.2 }}
           viewport={{ once: false, amount: 0.3 }}
         >
-           {/* <div className="Images"> */}
+          {/* <div className="Images"> */}
           <div className="grid">
             <img src={html} alt="" />
           </div>
@@ -57,27 +57,26 @@ const Skills = () => {
           <div className="grid">
             <img src={react} alt="" />
           </div>
-        {/* </div> */}
+          {/* </div> */}
         </motion.div>
-       
+
         {/* <div className="skillPara"> */}
         <motion.div
           className="skillPara"
           initial={{ opacity: 0, x: -200 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, delay:0.4}}
+          transition={{ duration: 1, delay: 0.4 }}
           viewport={{ once: false, amount: 0.3 }}
         >
           <p className="skill">
-            From sketching rough wireframes to crafting detailed prototypes, I
-            love turning simple ideas into engaging digital experiences. Tools
+            I love turning simple ideas into engaging digital experiences. Tools
             like Figma help me build low- to high-fidelity designs, while Rive
             allows me to explore micro-interactions and animations. I'm also
-            learning how to implement these designs using basic web technologies
-            like HTML, CSS, and Webflow.
+            learning how to implement these designs using web technologies like
+            HTML, CSS, and Webflow.
           </p>
         </motion.div>
-          
+
         {/* </div> */}
       </div>
     </div>
