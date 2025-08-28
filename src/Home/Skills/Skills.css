@@ -85,7 +85,7 @@ body {
   font-family: lato;
 }
 
-@media (max-width: 600px) {
+@media (max-width:  768px) {
   .main3 {
     height: 60%;
     padding-top: 20px;
