@@ -68,7 +68,7 @@ body {
 /* For tablets and smaller screens */
 @media (max-width: 768px) {
   .main {
-    height: 8%; /* let it grow naturally */
+    height: 10%; /* let it grow naturally */
     width: 100%;
     flex-direction: column; /* stack logo and menu */
     align-items: flex-start;

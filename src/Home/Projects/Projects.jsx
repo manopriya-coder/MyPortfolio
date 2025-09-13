@@ -4,11 +4,11 @@ import project1 from "../../Assets/mockUps.png";
 import loop from "../../Assets/Loop Animation.gif";
 import bottom from "../../Assets/Bottom Animation.gif";
 import ps1 from "../../Assets/ProfileQuality.jpg";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Projects = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <div className="main4">
@@ -26,12 +26,14 @@ const Projects = () => {
           >
             {/* <div className="project1"> */}
             <img src={project1} alt="" />
-            <div className="bottom" onClick={() => navigate("/Footwear")}>
+            <a href="https://footwear-casestudy.netlify.app/">
+            <div className="bottom" >
               <p className="bottomP">Footwear Online Shopping Application</p>
               <div className="icon">
                 <i class="ri-arrow-right-up-line"></i>
               </div>
             </div>
+            </a>
             {/* </div> */}
           </motion.div>
 
@@ -44,12 +46,14 @@ const Projects = () => {
             viewport={{ once: false, amount: 0.3 }}
           >
             <img src={project1} alt="" />
+            <a href="http://travel-casestudy.netlify.app">
             <div className="bottom2">
               <p className="bottomP2">Wander Together Application</p>
               <div className="icon2">
                 <i class="ri-arrow-right-up-line"></i>
               </div>
             </div>
+            </a>
           </motion.div>
 
           {/* </div> */}

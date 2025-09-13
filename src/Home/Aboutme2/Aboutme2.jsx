@@ -1,6 +1,6 @@
 import React from "react";
 import "../Aboutme2/Aboutme2.css";
-import bgLine from "../../Assets/lineBg.png";
+// import bgLine from "../../Assets/lineBg.png";
 import { motion } from "framer-motion";
 
 const Aboutme2 = () => {
@@ -46,7 +46,7 @@ const Aboutme2 = () => {
           {/* </div> */}
         </motion.div>
       </div>
-      <img src={bgLine} alt="" className="bgLine" />
+      {/* <img src={bgLine} alt="" className="bgLine" /> */}
     </div>
   );
 };
