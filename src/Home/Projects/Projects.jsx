@@ -1,6 +1,7 @@
 import React from "react";
 import "../Projects/Projects.css";
 import project1 from "../../Assets/mockUps.png";
+import project2 from "../../Assets/TravelMockup.png";
 import loop from "../../Assets/Loop Animation.gif";
 import bottom from "../../Assets/Bottom Animation.gif";
 import ps1 from "../../Assets/ProfileQuality.jpg";
@@ -45,7 +46,7 @@ const Projects = () => {
             transition={{ duration: 1 }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            <img src={project1} alt="" />
+            <img src={project2} alt="" />
             <a href="http://travel-casestudy.netlify.app">
             <div className="bottom2">
               <p className="bottomP2">Wander Together Application</p>
